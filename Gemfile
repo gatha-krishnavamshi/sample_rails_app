@@ -19,6 +19,8 @@ gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
 gem 'capistrano', '~> 3.0', require: false
 gem 'capistrano-rails', require: false
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
 
 group :development, :test do
   # gem 'debase'
